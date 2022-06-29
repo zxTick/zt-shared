@@ -2,12 +2,23 @@
   "name": "zt-shared",
   "version": "0.0.7",
   "description": "",
-  "scripts": {
-    "build": "tsup",
-    "release": "bumpp && npm publish",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "typecheck": "tsc --noEmit"
+  "author": "tick",
+  "license": "MIT",
+  "homepage": "https://github.com/zxTick/zt-shared#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxTick/zt-shared"
+  },
+  "bugs": {
+    "url": "https://github.com/zxTick/zt-shared/issues"
+  },
+  "keywords": [],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -15,23 +26,12 @@
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "keywords": [],
-  "author": "tick",
-  "license": "MIT",
-  "homepage": "https://github.com/zxTick/zt-shared#readme",
-  "bugs": {
-    "url": "https://github.com/zxTick/zt-shared/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zxTick/zt-shared"
+  "scripts": {
+    "build": "tsup",
+    "release": "bumpp && npm publish",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
