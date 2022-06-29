@@ -1,3 +1,3 @@
-# zt-shared
+# ztshared
 
 `pnpm add zt-shared`
