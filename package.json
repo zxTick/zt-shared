@@ -1,10 +1,10 @@
 {
   "name": "zt-shared",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "scripts": {
     "build": "tsup",
-    "release": "bump && pnpm publish",
+    "release": "bumpp && pnpm publish",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "typecheck": "tsc --noEmit"
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
-    "bump": "^0.2.5",
+    "bumpp": "^8.2.1",
     "eslint": "^8.18.0",
     "tsup": "^6.1.2",
     "typescript": "^4.7.4"
