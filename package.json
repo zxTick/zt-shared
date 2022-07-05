@@ -1,7 +1,7 @@
 {
   "name": "zt-shared",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "packageManager": "pnpm@7.1.2",
   "description": "",
   "author": "TickHeart",
