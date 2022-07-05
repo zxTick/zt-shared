@@ -1,2 +1,1 @@
-export * from './isTypes'
-export * from './types'
+export const one = 1

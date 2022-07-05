@@ -1,3 +1,7 @@
-# ztshared
+# starter-ts
 
-`pnpm add zt-shared`
+A ts starter by developer-plus.
+
+## LICENSE
+
+MIT, developer-plus made with 💗.
